@@ -1,1 +1,1 @@
-# lamzi-com.github.io
+# sue.lamzi.com
