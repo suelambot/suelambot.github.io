@@ -84,5 +84,6 @@ footer a:hover {
 .language-yaml::before { content: "YAML"; }
 .language-json::before { content: "JSON"; }
 .language-c::before { content: "C"; }
+.language-xml::before { content: "XML"; }
 .language-mermaid::before { content: "Mermaid"; }
 
