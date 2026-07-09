@@ -7,6 +7,7 @@ This space is a collection of reflections on software architecture in general, a
 I believe good architecture is not about adding abstractions, but about reducing cognitive load and making systems easier to understand, evolve, and document.
 
 I don't claim to have all the answers. I'm simply documenting my journey and sharing what I learn along the way, in the hope that it might inspire others.
+<div class="article-listing">
 
 {% for post in site.posts limit:3 %}
 <article>
@@ -25,5 +26,6 @@ I don't claim to have all the answers. I'm simply documenting my journey and sha
 {% endif %}
 </article>
 {% endfor %}
+</div>
 
 [View all articles →]({{ "/articles" | relative_url }})
