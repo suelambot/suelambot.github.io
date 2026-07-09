@@ -1,3 +1,7 @@
+body {
+    font-size: 0.85rem;
+}
+
 main {
     padding-top: 2rem;
 }
@@ -23,17 +27,23 @@ pre {
 pre code {
     font-size: 0.9rem;
 }
-h1{
+
+h1 {
     font-size: 1.5rem;
 }
-h2{
+
+h2 {
     font-size: 1.2rem;
 }
+h3 {
+    font-size: 1rem;
+}
 
-.site-title{
+.site-title {
     font-size: 2rem;
 }
-.site-description{
+
+.site-description {
     font-size: 1rem;
     font-style: italic;
 }
@@ -77,13 +87,35 @@ footer a:hover {
     text-align: right;
 }
 
-.language-python::before { content: "Python"; }
-.language-java::before { content: "Java"; }
-.language-javascript::before { content: "JavaScript"; }
-.language-bash::before { content: "Bash"; }
-.language-yaml::before { content: "YAML"; }
-.language-json::before { content: "JSON"; }
-.language-c::before { content: "C"; }
-.language-xml::before { content: "XML"; }
-.language-mermaid::before { content: "Mermaid"; }
+.language-python::before {
+    content: "Python";
+}
+
+.language-java::before {
+    content: "Java";
+}
+
+.language-javascript::before {
+    content: "JavaScript";
+}
+
+.language-bash::before {
+    content: "Bash";
+}
+
+.language-yaml::before {
+    content: "YAML";
+}
+
+.language-json::before {
+    content: "JSON";
+}
+
+.language-c::before {
+    content: "C";
+}
+
+.language-mermaid::before {
+    content: "Mermaid";
+}
 
